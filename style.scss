@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+.item {
+    height: 690px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.item-1 {
+    background-color: #620423;
+    top: 0px;
+}
+
+.item-2 {
+    background-color: #222;
+    top: 50px;
+}
+
+.item-3 {
+    background-color: #7c2c87;
+    top: 150px;
+
+
+}
+
+.head {
+    background-color: rebeccapurple;
+    height: 50px;
+}
+
+.item {
+    position: sticky;
+    z-index: 999;
+}
+.wrap{
+    position: sticky;
+    top: 0;
+}
